@@ -15,7 +15,7 @@ spec:
      labels:
        type: webserver
        env: QA
-spec:
-  containers:
-   - image: mynginx
-     name: myc1
+   spec:
+    containers:
+     - image: mynginx
+        name: myc1
